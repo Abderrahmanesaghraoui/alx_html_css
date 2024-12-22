@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Style article and aside to set proportions and enable scrolling */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Optional styles for better visualization */
+header, footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+logo {
+    text-align: left;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+aside {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
